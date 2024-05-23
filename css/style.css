@@ -1,22 +1,131 @@
 *{
-    padding:0;
-    margin:0;
-    color:white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-#navbar{
-    height:60px;
-    background-color: #0f1111;
+/* navbar */
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-#logo{
+/* navbar logo*/
+.navlogo{
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("/images/amazonnavlogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/*navbar first box*/
+.navaddress{
+    height: 40px;
+}
+.add1 {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+}
+/*navbar second(Search) box*/
 
-    color:#f08804;
-    font-size: 25px;
+.navsearch{
+    display:flex;
+    background-color: #FEBD69;
+    width: 590px;
+    height: 40px;
+    justify-content: space-evenly;
+    border-radius: 4px;
+
 }
-#navbutton{
-    background-color: #f08804;
-    padding:5px;
+.searchselect{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
 }
-a{
-    text-decoration: none;
-    margin: 70px;
+.searchinput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0F1111;
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+/* navbar third(language)*/
+.language{
+    height: 50px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.language img{
+    height: 16.2px;
+    width: 21.2px;
+    object-fit: contain;
+}
+.language i{
+    margin-left: 1px;
+    font-weight: normal;
+
+    
+}
+.langtype{
+    font-size: 14px;
+}
+/*navbar fourth& fifth(signin,return) box*/
+
+.sign1{
+    font-size: 0.7rem;
+}
+.sign2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.sign2 i{
+    height: 4px;
+    width: 8px;
+    font-weight: normal;
+}
+/*navbar sixth(cart) box*/
+
+.navcart i{
+    font-size: 30px;
+}
+.navcart{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
