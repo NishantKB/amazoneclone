@@ -244,3 +244,19 @@ ul a{
     margin-top: 10px;
     color: #dddddd;
 }
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.85px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("/images/amazonnavlogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
