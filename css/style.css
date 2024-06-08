@@ -6,6 +6,7 @@
 }
 
 /* navbar */
+
 .navbar{
     height: 60px;
     background-color: #0F1111;
@@ -14,7 +15,9 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 /* navbar logo*/
+
 .navlogo{
     height: 50px;
     width: 100px;
@@ -33,6 +36,7 @@
 .border:hover{
     border: 1.5px solid white;
 }
+
 /*navbar first box*/
 .navaddress{
     height: 40px;
@@ -49,6 +53,7 @@
 .add-icon{
     display: flex;
 }
+
 /*navbar second(Search) box*/
 
 .navsearch{
@@ -85,6 +90,7 @@
 .navsearch:hover{
     border: 2px solid orange;
 }
+
 /* navbar third(language)*/
 .language{
     height: 50px;
@@ -108,6 +114,7 @@
 .langtype{
     font-size: 14px;
 }
+
 /*navbar fourth& fifth(signin,return) box*/
 
 .sign1{
@@ -122,6 +129,7 @@
     width: 8px;
     font-weight: normal;
 }
+
 /*navbar sixth(cart) box*/
 
 .navcart i{
@@ -131,7 +139,9 @@
     font-size: 0.85rem;
     font-weight: 700;
 }
+
 /** panel **/
+
 .panel{
     height: 40px;
     background-color: #222f3d;
@@ -158,7 +168,9 @@
     font-weight: 700;
     margin-right: 30px;
 }
+
 /** hero section **/
+
 .herosection{
     background-image: url('/images/herosection.jpg');
     background-size: cover;
@@ -253,7 +265,7 @@ ul a{
     justify-content: center;
     align-items: center;
 }
-.logo{
+.logo1{
     height: 50px;
     width: 100px;
     background-image: url("/images/amazonnavlogo.png");
@@ -271,5 +283,5 @@ ul a{
     padding-top: 25px;
 }
 .copyright{
-    padding-top: 5px;
+    padding-top: 10px;
 }
