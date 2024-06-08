@@ -129,3 +129,30 @@
     font-size: 0.85rem;
     font-weight: 700;
 }
+/** panel **/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelall{
+    margin-right: auto;
+    margin-left : 30px;
+
+}
+.panelopps p{
+    display: inline;
+    margin-left: 15px;
+}
+.panelopps{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-right: 30px;
+}
