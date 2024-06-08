@@ -190,7 +190,6 @@
     justify-content: space-evenly;
     background-color: #F2DAD3;
 }
-
 .box {
     height: 410px;
     width: 23%;
@@ -211,4 +210,21 @@
 .box-content p{
     margin-top: 10px;
     color: #007185;
+}
+
+/** footer **/
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel1 a{
+    color: white;
+    font-size: 0.85rem;
 }
